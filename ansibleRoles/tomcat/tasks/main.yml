@@ -1,6 +1,6 @@
 ---
 - name: Install Java 1.8.0
-  yum: name=java-1.8.0-openjdk-devel.x86_64 state=present
+  yum: name=java-1.8.0-openjdk-devel.x86_64 state=absent
 
 - name: add group "tomcat"
   group: name=tomcat
